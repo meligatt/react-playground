@@ -20,4 +20,5 @@
 - in the terminal run `yarn run test`
 
 ## todo:
-- add react routes to index each code snippet https://reacttraining.com/react-router/web/guides/quick-start
+- [x] add react routes to index each code snippet https://reacttraining.com/react-router/web/guides/quick-start
+- [ ] add code snippets using react-hooks

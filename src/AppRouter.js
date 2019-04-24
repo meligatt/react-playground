@@ -2,22 +2,20 @@ import './App.scss';
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Main from './Main';
-import Board from './snippets/Board';
-import Snippet2 from './snippets/snippet2';
-import Snippet3 from './snippets/snippet3';
-import Snippet4 from './snippets/snippet4';
+import demo1 from './snippets/demo1';
+import demo2 from './snippets/demo2';
+import demo3 from './snippets/demo3';
 
 const AppRouter = () => {
   return (
     <Router>
       <div>
-        <Link to="/">main</Link>
+        <Link to="/">React playground</Link>
       </div>
       <Route exact path="/" component={Main} />
-      <Route path="/board/" component={Board} />
-      <Route path="/snippet2/" component={Snippet2} />
-      <Route path="/snippet3/" component={Snippet3} />
-      <Route path="/snippet4/" component={Snippet4} />
+      <Route path="/demo3/" component={demo3} />
+      <Route path="/demo1/" component={demo1} />
+      <Route path="/demo2/" component={demo2} />
     </Router>
   );
 };
