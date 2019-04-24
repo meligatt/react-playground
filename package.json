@@ -1,7 +1,7 @@
 {
-  "name": "toy-robot-react",
+  "name": "react-playground",
   "version": "1.0.0",
-  "description": "toy robot using reactJS",
+  "description": "playground using reactJS",
   "main": "webpack.config.js",
   "engines": {
     "node": "10.9.0"
