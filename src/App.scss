@@ -1,0 +1,13 @@
+@import 'src/styles/abstracts/vendor/_normalize';
+@import 'src/styles/abstracts/functions/_get-color';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: getColor(clearDay);
+  font-size: 1rem;
+  color: getColor(black);
+}

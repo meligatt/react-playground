@@ -1,0 +1,7 @@
+$mobile: "(max-width: 768px)";
+
+@mixin breakpoint($query) {
+  @media #{$query} {
+    @content;
+  }
+}

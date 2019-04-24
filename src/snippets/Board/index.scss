@@ -1,0 +1,16 @@
+@import 'src/styles/abstracts/variables/_gutter';
+@import 'src/styles/abstracts/functions/_get-color';
+@import 'src/styles/abstracts/mixins/_breakpoint';
+
+.board-main {
+  padding: $gutter 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+}
+
+
+@include breakpoint($mobile) {
+  // wip
+}

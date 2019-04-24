@@ -1,0 +1,15 @@
+@import '../variables/_color-map';
+
+/**
+* function: get-color
+* get a color hexadecimal value from variables/$color-map
+* first parameter $color is the color name to retrieve (see $color-map for references)
+*/
+
+@function getColor($color) {
+  @if map-has-key($color-map, $color) {
+    @return map-get($color-map, $color);
+  } @else {
+    @error 'Error retrieving key in in color-map';
+  }
+}

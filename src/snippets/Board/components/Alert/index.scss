@@ -1,0 +1,13 @@
+@import 'src/styles/abstracts/variables/_gutter';
+@import 'src/styles/abstracts/functions/_get-color';
+
+.alert__text {
+  padding: $gutter;
+  margin: $gutter;
+  font-size: 1rem;
+  text-align: center;
+  color: getColor(black);
+  background-color: getColor(white);
+  border: 1px solid getColor(blue);
+  border-radius: 3px;
+}

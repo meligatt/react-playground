@@ -1,0 +1,21 @@
+/**
+* sass map structure: $color-map
+* keeps the hexadecimal values for color property used in components.
+* Keys with a prefix 'colorKey-value' means the color will have an opacity according to the value provided
+* resource: http://veli.ee/colorpedia/ for hex color names
+*/
+
+$color-map: (white: #FFFFFF,
+silver: #c1c1c1,
+blue: #00236D,
+SanMarino: #5468B1,
+clearDay: #f6fffd,
+mercury: #E8E8E8,
+sky: #65acb6,
+black: #000000,
+black-10: rgba(0, 0, 0, 0.10),
+black-30: rgba(0, 0, 0, 0.30),
+black-60: rgba(0, 0, 0, 0.60),
+black-70: rgba(0, 0, 0, 0.70),
+black-80: rgba(0, 0, 0, 0.80),
+blackShadow: rgba(0, 0, 0, .1));
