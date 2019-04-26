@@ -6,7 +6,7 @@ const Main = () => {
     <div>
       <ul>
         <li><Link to= "/board/">board demo</Link></li>
-        <li><Link to= "/demo1/">react hooks demo</Link></li>
+        <li><Link to= "/reactHooks/">react hooks demo</Link></li>
         <li><Link to= "/demo2/">RenderProps Demo</Link></li>
       </ul>
     </div>
