@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Main from './Main';
 import reactHooks from './snippets/reactHooks';
+import ReactClassExample from './snippets/ReactClassExample';
 import demo2 from './snippets/demo2';
 import demo3 from './snippets/demo3';
 
@@ -13,9 +14,10 @@ const AppRouter = () => {
         <Link to= "/">React playground</Link>
       </div>
       <Route exact path ="/" component ={ Main } />
-      <Route path ="/demo3/" component= { demo3 } />
-      <Route path= "/reactHooks/" component= { reactHooks } />
+      <Route path ="/demo3/" component ={ demo3 } />
       <Route path= "/demo2/" component= { demo2 } />
+      <Route path= "/reactHooks/" component= { reactHooks } />
+      <Route path= "/ReactClassExample/" component= { ReactClassExample } />
     </Router>
   );
 };
